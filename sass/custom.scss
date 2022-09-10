@@ -1,0 +1,27 @@
+*{
+  margin:0;
+  padding: 0;
+}
+*::before,*::after{
+  box-sizing: inherit;
+}
+html{
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.container{
+  max-width: 120rem;
+  background-color: #c2c1c1;
+  margin: 1rem auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.item{
+  color: white;
+  padding: 1rem;
+  margin:.5rem;
+  background-color: #ff927f;
+  font-size:2rem;
+}
